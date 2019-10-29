@@ -1,3 +1,8 @@
+import home from './home';
 
+console.log(home.homeImg)
+home.render();
 
-document.querySelector('#content').textContent = "Welcome to Webpack"
+document.querySelector('body').addEventListener('load', () => {
+  console.log('Loaded!')
+})
