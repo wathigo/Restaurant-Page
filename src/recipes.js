@@ -1,5 +1,4 @@
 const recipes = (() => {
-  const menuInfo = document.createElement('div');
   const menuCont = document.createElement('div');
   const menuHeading = document.createElement('h2');
   const menuItems = document.createElement('div');
@@ -8,7 +7,7 @@ const recipes = (() => {
   const menuDesc = document.createElement('p');
 
   const render = () => {
-    if(document.querySelector('.info').style.display !== 'none'){
+    if (document.querySelector('.info').style.display !== 'none') {
       document.querySelector('.info').style.display = 'none';
     } else {
       document.querySelector('.contact-cont').style.display = 'none';
@@ -22,26 +21,26 @@ const recipes = (() => {
     menuHeading.textContent = 'Our Menu';
     menuCont.appendChild(menuHeading);
     let i = 0;
-    if(menuCont.childNodes.length === 1){
-      while(i < 4){
-        if(i === 0){
+    if (menuCont.childNodes.length === 1) {
+      while (i < 4) {
+        if (i === 0) {
           menuImage.src = '../images/dishes_1.webp';
           menuDesc.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...';
           menuItem.appendChild(menuImage);
           menuItem.appendChild(menuDesc);
           menuItems.appendChild(menuItem);
-        } else{
-          let clonedItem = menuItem.cloneNode(true)
+        } else {
+          const clonedItem = menuItem.cloneNode(true);
           menuItems.appendChild(clonedItem);
         }
         i += 1;
       }
     }
-    menuCont.appendChild(menuItems)
+    menuCont.appendChild(menuItems);
     homeImg.appendChild(menuCont);
     menuCont.style.display = 'block';
-  }
-  return {render};
+  };
+  return { render };
 })();
 
 export default recipes;

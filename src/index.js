@@ -23,4 +23,4 @@ document.querySelector('.contact-btn').addEventListener('click', () => {
 
 document.querySelector('.logo').addEventListener('click', () => {
   location.reload();
-})
+});
