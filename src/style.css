@@ -77,6 +77,10 @@ body{
   display: none;
 }
 
+.read-more, .show-less {
+  cursor: pointer;
+}
+
 /* Menu Styles */
 
 .menu-items{
@@ -123,7 +127,7 @@ body{
 
 /* Contact Styles */
 
-.contact-cont {
+.contact-cont, .info {
   color: #fff;
   width: 90vw;
   margin: 10vh auto 0 auto;

@@ -20,3 +20,7 @@ document.querySelector('.recipes-l').addEventListener('click', () => {
 document.querySelector('.contact-btn').addEventListener('click', () => {
   contact.render();
 });
+
+document.querySelector('.logo').addEventListener('click', () => {
+  location.reload();
+})
