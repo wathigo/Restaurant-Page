@@ -6,7 +6,7 @@ import contact from './contact';
 home.render();
 
 document.querySelector('.home-l').addEventListener('click', () => {
-  location.reload();
+  location.reload(); /* eslint-disable-line no-restricted-globals */
 });
 
 document.querySelector('.about-l').addEventListener('click', () => {
@@ -22,5 +22,5 @@ document.querySelector('.contact-btn').addEventListener('click', () => {
 });
 
 document.querySelector('.logo').addEventListener('click', () => {
-  location.reload();
+  location.reload(); /* eslint-disable-line no-restricted-globals */
 });
