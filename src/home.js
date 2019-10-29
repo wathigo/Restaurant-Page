@@ -9,8 +9,8 @@ const home = (() => {
   const about = document.createElement('a');
   const contactBtn = document.createElement('button');
   const info = document.createElement('div');
-  const aboutInfo = document.createElement('h2');
-  const aboutDesc = document.createElement('p');
+  const homeInfo = document.createElement('h2');
+  const homeDesc = document.createElement('p');
   const fullDesc = document.createElement('div');
   const readMore = document.createElement('a');
   const showLess = document.createElement('a');
@@ -22,8 +22,8 @@ const home = (() => {
   about.classList.add('about-l');
   contactBtn.classList.add('contact-btn');
   info.classList.add('info');
-  aboutInfo.classList.add('about-heading');
-  aboutDesc.classList.add('about-desc');
+  homeInfo.classList.add('about-heading');
+  homeDesc.classList.add('about-desc');
   fullDesc.classList.add('full-desc')
   readMore.classList.add('read-more');
   showLess.classList.add('show-less');
@@ -33,8 +33,8 @@ const home = (() => {
     recipes.textContent = 'recipes';
     about.textContent = 'about';
     contactBtn.textContent = 'Conctact Us'
-    aboutInfo.textContent = 'DELICOUS FOODS';
-    aboutDesc.textContent =  'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+    homeInfo.textContent = 'DELICOUS FOODS';
+    homeDesc.textContent =  'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
     fullDesc.textContent = `Eius est soluta blanditiis velit doloremque corrupti aliquid ducimus consectetur ea nobis dolorem, id quibusdam praesentium consequuntur modi eligendi, sunt suscipit ullam iure nesciunt tempore. Itaque placeat, libero aliquam odio ex voluptas.'
 
 Vel vitae, assumenda blanditiis nemo in vero reprehenderit asperiores distinctio exercitationem aliquid, quam velit explicabo neque. Sapiente provident sequi omnis itaque eaque voluptatum vel. Accusamus deserunt atque eligendi mollitia voluptates eum libero, ratione id labore. Magnam porro dolorem aspernatur, dolor?`;
@@ -50,8 +50,8 @@ Vel vitae, assumenda blanditiis nemo in vero reprehenderit asperiores distinctio
       readMore.style.display = 'block';
       showLess.style.display = 'none';
     })
-    info.appendChild(aboutInfo);
-    info.appendChild(aboutDesc);
+    info.appendChild(homeInfo);
+    info.appendChild(homeDesc);
     info.appendChild(readMore);
     info.appendChild(fullDesc)
     info.appendChild(showLess);
