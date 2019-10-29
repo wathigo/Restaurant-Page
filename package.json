@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A simple landing page for a restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wathigo/Restaurant-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wathigo/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/wathigo/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
+}
