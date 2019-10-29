@@ -101,6 +101,7 @@ body{
   margin: 0;
   padding: 1.9em 0 0 1.2em;
   float: right;
+  font-family: 'Cuprum', sans-serif;
 }
 
 .menu-heading {
@@ -118,4 +119,30 @@ body{
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.8)
     )
+}
+
+/* Contact Styles */
+
+.contact-cont {
+  color: #fff;
+  width: 90vw;
+  margin: 10vh auto 0 auto;
+  border-radius: 2em;
+  padding: 2em;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.8)
+    )
+}
+
+.contact-det, .leave-msg{
+  display: inline-block;
+  width: 45vw;
+}
+
+.leave-msg textarea {
+  display: block;
+  margin-top: 1em;
+  margin-left: 2em;
 }

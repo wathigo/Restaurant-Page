@@ -8,7 +8,11 @@ const recipes = (() => {
   const menuDesc = document.createElement('p');
 
   const render = () => {
-    document.querySelector('.info').style.display = 'none';
+    if(document.querySelector('.info').style.display !== 'none'){
+      document.querySelector('.info').style.display = 'none';
+    } else {
+      document.querySelector('.contact-cont').style.display = 'none';
+    }
     const homeImg = document.querySelector('.home-img');
     menuCont.classList.add('menu-cont');
     menuHeading.classList.add('menu-heading');
