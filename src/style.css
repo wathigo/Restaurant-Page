@@ -76,3 +76,23 @@ body{
 .full-desc, .show-less {
   display: none;
 }
+
+/* Menu Styles */
+
+.menu-items{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.menu-item img, .menu-item p {
+  width: 20vw;
+  height: 15vh;
+  display: inline-block;
+  color: #fff;
+}
+
+.menu-item p{
+  margin: 0;
+  padding: 0;
+}
