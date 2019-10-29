@@ -18,21 +18,24 @@ const recipes = (() => {
     menuHeading.textContent = 'Our Menu';
     menuCont.appendChild(menuHeading);
     let i = 0;
-    while(i < 4){
-      if(i === 0){
-        menuImage.src = '../images/dishes_1.webp';
-        menuDesc.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...';
-        menuItem.appendChild(menuImage);
-        menuItem.appendChild(menuDesc);
-        menuItems.appendChild(menuItem);
-      } else{
-        let clonedItem = menuItem.cloneNode(true)
-        menuItems.appendChild(clonedItem);
+    if(menuCont.childNodes.length === 1){
+      while(i < 4){
+        if(i === 0){
+          menuImage.src = '../images/dishes_1.webp';
+          menuDesc.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...';
+          menuItem.appendChild(menuImage);
+          menuItem.appendChild(menuDesc);
+          menuItems.appendChild(menuItem);
+        } else{
+          let clonedItem = menuItem.cloneNode(true)
+          menuItems.appendChild(clonedItem);
+        }
+        i += 1;
       }
-      i += 1;
     }
     menuCont.appendChild(menuItems)
     homeImg.appendChild(menuCont);
+    menuCont.style.display = 'block';
   }
   return {render};
 })();

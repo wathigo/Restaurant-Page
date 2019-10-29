@@ -4,6 +4,10 @@ import recipes from './recipes';
 
 home.render();
 
+document.querySelector('.home-l').addEventListener('click', () => {
+  location.reload();
+});
+
 document.querySelector('.about-l').addEventListener('click', () => {
   about.render();
 });

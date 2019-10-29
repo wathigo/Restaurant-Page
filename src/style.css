@@ -99,11 +99,23 @@ body{
 
 .menu-item p{
   margin: 0;
-  padding-top: 1.5em 0 0 1.2em;
+  padding: 1.9em 0 0 1.2em;
   float: right;
 }
 
 .menu-heading {
   color: #fff;
   text-align: center;
+}
+
+.menu-cont {
+  width: 90vw;
+  margin: 0 auto;
+  border-radius: 2em;
+  padding: 2em;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.8)
+    )
 }
