@@ -14,6 +14,9 @@ const recipes = (() => {
     menuHeading.classList.add('menu-heading');
     menuItems.classList.add('menu-items');
     menuItem.classList.add('menu-item');
+    menuHeading.classList.add('menu-heading');
+    menuHeading.textContent = 'Our Menu';
+    menuCont.appendChild(menuHeading);
     let i = 0;
     while(i < 4){
       if(i === 0){
@@ -28,8 +31,8 @@ const recipes = (() => {
       }
       i += 1;
     }
-    console.log(menuItems);
-    homeImg.appendChild(menuItems);
+    menuCont.appendChild(menuItems)
+    homeImg.appendChild(menuCont);
   }
   return {render};
 })();

@@ -85,14 +85,25 @@ body{
   justify-content: space-around;
 }
 
+.menu-item {
+  height: 20vh;
+  margin-bottom: 3em;
+}
+
 .menu-item img, .menu-item p {
   width: 20vw;
-  height: 15vh;
+  height: 100%;
   display: inline-block;
   color: #fff;
 }
 
 .menu-item p{
   margin: 0;
-  padding: 0;
+  padding-top: 1.5em 0 0 1.2em;
+  float: right;
+}
+
+.menu-heading {
+  color: #fff;
+  text-align: center;
 }
