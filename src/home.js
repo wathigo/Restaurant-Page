@@ -47,7 +47,7 @@ Vel vitae, assumenda blanditiis nemo in vero reprehenderit asperiores distinctio
     });
     showLess.addEventListener('click', () => {
       fullDesc.style.display = 'none';
-      readMore.style.display = 'none';
+      readMore.style.display = 'block';
       showLess.style.display = 'none';
     })
     info.appendChild(aboutInfo);
