@@ -49,6 +49,7 @@ Based on the [Restaurant Page](https://www.theodinproject.com/courses/javascript
 
 ### Built With
 * [JavaScript](https://www.javascript.com/)
+* [webpack](https://webpack.js.org/)
 
 
 ### Contact
