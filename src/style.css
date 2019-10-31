@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Home page Rules */
+
+.home-img{
+  min-height: 100vh;
+  width: 100vw;
+  padding-top: 6vh;
+  box-sizing: border-box;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url('../images/back.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+.nav-items {
+  height: 10vh;
+}
+
+.nav-items a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  font-family: 'Cuprum', sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.nav-items a:hover{
+  text-decoration: underline;
+}
+
+.logo{
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-left: 10vw;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.95em;
+  width: 30vw;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.contact-btn{
+  background-color: red;
+  border: none;
+  padding: 0.8em;
+  color: #fff;
+  font-size: 0.9em;
+  font-family: 'Cuprum', sans-serif;
+  font-weight: bold;
+  margin-left: 12em;
+}
+
+.info{
+  color: #fff;
+  width: 80vw;
+  margin: 30vh auto 0 auto;
+  text-align: center;
+}
+
+.about0-desc, .full-desc {
+  font-family: 'Cormorant Garamond', serif;
+}
+.full-desc, .show-less {
+  display: none;
+}
+
+.read-more, .show-less {
+  cursor: pointer;
+}
+
+/* Menu Styles */
+
+.menu-items{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.menu-item {
+  height: 20vh;
+  margin-bottom: 3em;
+}
+
+.menu-item img, .menu-item p {
+  width: 20vw;
+  height: 100%;
+  display: inline-block;
+  color: #fff;
+}
+
+.menu-item p{
+  margin: 0;
+  padding: 1.9em 0 0 1.2em;
+  float: right;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.menu-heading {
+  color: #fff;
+  text-align: center;
+}
+
+.menu-cont {
+  width: 90vw;
+  margin: 0 auto;
+  border-radius: 2em;
+  padding: 2em;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.8)
+    )
+}
+
+/* Contact Styles */
+
+.contact-cont, .info {
+  color: #fff;
+  width: 90vw;
+  margin: 10vh auto 0 auto;
+  border-radius: 2em;
+  padding: 2em;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.8)
+    )
+}
+
+.contact-det, .leave-msg{
+  display: inline-block;
+  width: 45vw;
+}
+
+.leave-msg textarea {
+  display: block;
+  margin-top: 1em;
+  margin-left: 2em;
+}
